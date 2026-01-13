@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+/* 3. Global Resets & Theme Defaults */
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f8fafc; /* Slate-50 background color */
+  color: #1e293b; /* Slate-800 text color */
+  -webkit-font-smoothing: antialiased; /* Makes fonts look crisp */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 4. Custom Animations (Used in DailyEntry.jsx) */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+/* 5. Custom Scrollbar (Optional - makes it look cleaner) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
