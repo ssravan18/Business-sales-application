@@ -113,16 +113,16 @@ cd flower-mart-frontend
 npm install
 ```
 
-## ▶️ How to Run the Application
+# ▶️ How to Run the Application
 You need to run the Backend and Frontend in two separate terminals.
 
-# Terminal 1: Start Backend
+## Terminal 1: Start Backend
 ```
 cd flower-mart-backend
 node server.js
 ```
 You should see: ✅ Database connected successfully
-# Terminal 2: Start Frontend
+## Terminal 2: Start Frontend
 ```
 cd flower-mart-frontend
 npm run dev
@@ -131,10 +131,10 @@ Open the link shown (usually http://localhost:5173) in your browser.
 
 
 ## Future Improvements
-# Authentication: Add Login/Signup for secure Admin access.
-# WhatsApp Integration: Automatically send PDF bills to customers via WhatsApp.
-# Analytics Dashboard: Visual charts for monthly sales and profit trends.
-# Stock Inventory: Automatic tracking of current stock levels and wastage.
+- Authentication: Add Login/Signup for secure Admin access.
+- WhatsApp Integration: Automatically send PDF bills to customers via WhatsApp.
+- Analytics Dashboard: Visual charts for monthly sales and profit trends.
+- Stock Inventory: Automatic tracking of current stock levels and wastage.
 
-## 👤 Author
-# Built with ❤️ by [SRAVAN SULIGE].
+# 👤 Author
+## Built with ❤️ by [SRAVAN SULIGE].
